@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+///...Navbar...\\\
+*/
+nav {
+
+    position: fixed;
+
+    width: 100%;
+
+    height: 50px;
+
+    top: 0;
+
+    background-color: rgb(255, 255, 255);
+
+    text-align: right;
+
+    padding: 10px 50px;
+
+    z-index: 3;
+
+}
+
+nav ul li {
+
+    display: inline-block;
+
+    margin-right: 60px;
+
+}
+
+nav ul li:last-child {
+
+    margin-right: 0;
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    color: rgb(0, 0, 0);
+
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.jdl {
+    font-family: 'Rowdies', cursive;
+    z-index: 1;
+}
+
+.fthm1 {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 900px;
+    float: right;
+    width: 700px;
+    height: 500px;
+    z-index: 2;
+    margin-bottom: 100px;
+}
+
+/*
+///...Responsive...\\\
+*/
+@media screen and (max-width: 768px) {
+    header ul {
+        display: none;
+    }
+}
+
+/*
+///...Background...\\\
+*/
+body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+///...Home...\\\
+*/
+.home {
+    padding-top: 80px;
+}
+
+font {
+    color: rgb(25, 97, 253);
+}
+
+.nama {
+    font-size: 50px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: 'Balsamiq Sans', cursive;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.tlskcl {
+    position: absolute;
+    color: rgb(87, 86, 86);
+    text-align: left;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    padding: 20px 20px;
+}
+
+/*
+///...About Me...\\\
+*/
+.about {
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 410px;
+    background-color: rgb(0, 0, 0);
+}
+
+.ftab1 {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+}
+
+.aboutme {
+    font-family: 'Francois One', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+.namaab {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.isiab {
+    font-size: 20px;
+    font-family: 'Crimson Pro', serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*
+///...Gallery...\\\
+*/
+
+/*
+///...Contact Us...\\\
+*/
+
+.contactus{
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    margin-left: 300px;
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+input,
+textarea{
+    background-color: #eee;
+    border: 1px solid rgba(224, 224, 224, 0.438);
+    padding: 12px 15px;
+    width:100%;
+    font-size: 0.8rem;
+    align-items: center;
+}
+input:focus,
+textarea:focus{
+    outline: 1px solid #00b4cf;
+}
+button{
+    border-radius: 20px;
+    border: 1px solid #00b4cf;
+    background-color: #00b4cf;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+}
+button:hover{
+    opacity: 0.7s;
+    background-color: white;
+    color: #00b4cf;
+    border: 1px solid white;
+}
+.sosmed {
+    font-size: 20px;
+    margin-top: 150px;
+    color: rgb(0, 174, 255);
+    padding-bottom: 20px;
+}
+
+.sosmed a {
+    color: rgb(0, 0, 0);
+}
+
+/*
+  ///...Responsive Contact...\\\
+  */
+@media screen and (max-width: 600px) {
+
+    #contactus {
+        width: 100%;
+        margin-top: 0;
+    }
+}
